@@ -89,14 +89,14 @@ const Contador = () => {
             </button>
 
 
-            <button onClick={() => textCountB()}>
+            <button onClick={() => textCountB()} className="sug">
                 <div>
                 <h4 id ="container_dos"></h4> 
                 <p id="tipo_pregunta_dos"></p> 
                 </div>
             </button>
             
-            <button onClick={() => NoneOption()}> No me interesa </button>
+            <button onClick={() => NoneOption()} className="NO"> No me interesa </button>
         
             <p>¿ Te interesa esta sugerencia ? {contador} </p>
        
